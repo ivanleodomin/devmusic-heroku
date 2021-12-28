@@ -1,0 +1,49 @@
+{
+  "name": "e-commerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "framer-motion": "^4.1.17",
+    "nodemailer": "^6.7.1",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "react": "^17.0.2",
+    "sequelize": "^6.9.0",
+    "volleyball": "^1.5.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "seed": "node seed",
+    "start": "node server.js"
+  },
+  "proxy": "http://localhost:4747",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
